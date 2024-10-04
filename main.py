@@ -5,10 +5,12 @@ def main():
     ########################################
     """
     total = 0
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    i = 0
+    while i < 5:
+        num = int(input('Enter number'))
+        total += num
+        i += 1
+    print(total)
     return total
 
 
